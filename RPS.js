@@ -12,31 +12,31 @@ function playGame(playerMove) {
     let result = '';
 
     if (playerMove === 'scissors') {
-        if (computerMove === 'rock') {
+        if (computerMove === 'Rock') {
         result = 'You lose!';
-        } else if (computerMove === 'paper') {
+        } else if (computerMove === 'Paper') {
             result = 'You win!'
-        } else if (computerMove === 'scissors') {
+        } else if (computerMove === 'Scissors') {
             result = 'Tie!'
         }
     } 
     
     else if (playerMove === 'paper') {
-        if (computerMove === 'rock') {
+        if (computerMove === 'Rock') {
             result = 'You win!';
-        } else if (computerMove === 'paper') {
+        } else if (computerMove === 'Paper') {
             result = 'Tie!';
-        } else if (computerMove === 'scissors') {
+        } else if (computerMove === 'Scissors') {
             result = 'You lose!';
         } 
     }
 
     else if (playerMove === 'rock') {
-        if (computerMove === 'rock') {
+        if (computerMove === 'Rock') {
             result = 'Tie!';
-        } else if (computerMove === 'paper') {
+        } else if (computerMove === 'Paper') {
             result = 'You lose!'
-        } else if (computerMove === 'scissors') {
+        } else if (computerMove === 'Scissors') {
             result = 'You win!'
         } 
     }
@@ -90,3 +90,4 @@ function pickComputerMove() {
     return computerMove;
 
 }
+
