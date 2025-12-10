@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image {
+    width: 70px;
+    margin-top: 20px;
+    margin-left: 205px;
+    border-radius: 5px;
+}
+
+.header {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: -1px;
+}
+
+span {
+    color: #96d64e;
+}
+
+.move-icon {
+    height: 6rem;
+}
+
+.move-button {
+    background-color: transparent;
+    border: 2px solid #96d64e;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+
+.reset-score {
+    height: 2rem;
+    width: 7rem;
+    cursor: pointer;
+    background-color: #78ac3c;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.js-results {
+    font-size: 30px;
+}
+
+.para {
+    color: white;
+}
